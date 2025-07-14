@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16 pb-8"
     >
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"></div>
@@ -38,7 +38,7 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6">
               Hi, I'm{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                John Doe
+                Achyut Tiwari
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
@@ -79,7 +79,7 @@ export default function Hero() {
             className="flex items-center justify-center gap-6 mb-12"
           >
             <a
-              href="https://github.com/johndoe"
+              href="https://github.com/AchyutTiwari21"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
@@ -87,7 +87,7 @@ export default function Hero() {
               <Github className="h-6 w-6 text-gray-700 dark:text-gray-300" />
             </a>
             <a
-              href="https://linkedin.com/in/johndoe"
+              href="https://www.linkedin.com/in/achyut-tiwari-32502b25a/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
@@ -95,7 +95,7 @@ export default function Hero() {
               <Linkedin className="h-6 w-6 text-gray-700 dark:text-gray-300" />
             </a>
             <a
-              href="mailto:john.doe@email.com"
+              href="mailto:achyut.s.tiwari@gmail.com"
               className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
             >
               <Mail className="h-6 w-6 text-gray-700 dark:text-gray-300" />
@@ -103,20 +103,6 @@ export default function Hero() {
           </motion.div>
 
           <TechStack />
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-            className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-          >
-            <button
-              onClick={() => scrollToSection('about')}
-              className="animate-bounce p-2 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow"
-            >
-              <ArrowDown className="h-6 w-6 text-gray-600 dark:text-gray-400" />
-            </button>
-          </motion.div>
         </div>
       </div>
     </section>

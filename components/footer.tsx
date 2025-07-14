@@ -1,7 +1,5 @@
 'use client';
 
-'use client';
-
 import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 export default function Footer() {
@@ -13,14 +11,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Logo and Description */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">John Doe</h3>
+            <h3 className="text-2xl font-bold mb-4">Achyut Tiwari</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-6">
               Full Stack Web Developer passionate about creating innovative solutions 
               with modern technologies.
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/johndoe"
+                href="https://github.com/AchyutTiwari21"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-200 dark:bg-gray-800 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
@@ -28,7 +26,7 @@ export default function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com/in/johndoe"
+                href="https://www.linkedin.com/in/achyut-tiwari-32502b25a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-200 dark:bg-gray-800 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
@@ -36,7 +34,7 @@ export default function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:john.doe@email.com"
+                href="mailto:achyut.s.tiwari@gmail.com"
                 className="p-2 bg-gray-200 dark:bg-gray-800 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
               >
                 <Mail className="h-5 w-5" />
@@ -102,7 +100,7 @@ export default function Footer() {
         <div className="border-t border-gray-300 dark:border-gray-800 mt-12 pt-8">
           <div className="text-center text-gray-600 dark:text-gray-400">
             <p className="flex items-center justify-center gap-2">
-              © {currentYear} John Doe. Made with <Heart className="h-4 w-4 text-red-500" /> and lots of coffee.
+              © {currentYear} Achyut Tiwari. Made with <Heart className="h-4 w-4 text-red-500" /> and lots of coffee.
             </p>
           </div>
         </div>

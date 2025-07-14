@@ -59,7 +59,7 @@ export default function About() {
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   When I'm not coding, you can find me exploring new technologies, contributing to 
-                  open-source projects, or sharing my knowledge with the developer community.
+                  open-source projects, or learning from the developer community.
                 </p>
               </CardContent>
             </Card>
