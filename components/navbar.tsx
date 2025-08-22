@@ -24,14 +24,18 @@ export default function Navbar() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ 
+      element.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
         inline: 'nearest'
       });
+      // wait a bit before closing so scroll isn’t interrupted
+      setTimeout(() => setIsOpen(false), 1000);
+    } else {
+      setIsOpen(false);
     }
-    setIsOpen(false);
   };
+
 
   const navItems = [
     { label: 'Home', id: 'home' },
