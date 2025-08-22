@@ -69,6 +69,16 @@ export default function Projects() {
     },
     {
       id: 6,
+      title: 'Children Application',
+      description: 'A modern, responsive children application built with React, TypeScript and TailwindCSS featuring nursery rhymes, alphabets, games on mathematical operations and animations.',
+      image: 'https://images.pexels.com/photos/1720188/pexels-photo-1720188.jpeg',
+      technologies: ['ReactJS', 'TS', 'TailwindCSS', 'Framer Motion'],
+      category: 'Frontend',
+      githubUrl: 'https://github.com/AchyutTiwari21/Bright-Beans',
+      liveUrl: 'https://bright-beans.vercel.app/',
+    },
+    {
+      id: 7,
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with Next.js and TailwindCSS featuring dark mode and animations.',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
