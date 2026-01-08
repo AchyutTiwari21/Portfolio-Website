@@ -22,7 +22,7 @@ export default function Projects() {
       title: 'Agri-Connect',
       description: 'A full-stack web application connecting farmers with buyers, product listings, and secure transactions.',
       image: 'https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg',
-      technologies: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'Socket.IO'],
+      technologies: ['NextJS', 'PostgreSQL', 'Prisma ORM', 'TailwindCSS', 'Razorpay'],
       category: 'Full Stack',
       githubUrl: 'https://github.com/AchyutTiwari21/Agri-Connect',
       liveUrl: 'https://agri-connect-eight-wheat.vercel.app/'
