@@ -19,6 +19,16 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      title: 'Agri-Connect',
+      description: 'A full-stack web application connecting farmers with buyers, product listings, and secure transactions.',
+      image: 'https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg',
+      technologies: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'Socket.IO'],
+      category: 'Full Stack',
+      githubUrl: 'https://github.com/AchyutTiwari21/Agri-Connect',
+      liveUrl: 'https://agri-connect-eight-wheat.vercel.app/'
+    },
+    {
+      id: 2,
       title: 'VideoTube-API',
       description: 'A Video Tube API for managing and uploading vidoes on the backend system. Authentication and Authorization of the users through JWT and cookies.',
       image: 'https://images.pexels.com/photos/4064830/pexels-photo-4064830.jpeg',
@@ -28,7 +38,7 @@ export default function Projects() {
       liveUrl: 'http://github.com/AchyutTiwari21/VideoTube-API',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Children Application',
       description: 'A modern, responsive children application built with React, TypeScript and TailwindCSS featuring nursery rhymes, alphabets, games on mathematical operations and animations.',
       image: 'https://images.pexels.com/photos/1720188/pexels-photo-1720188.jpeg',
@@ -38,7 +48,7 @@ export default function Projects() {
       liveUrl: 'https://bright-beans.vercel.app/',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with Next.js and TailwindCSS featuring dark mode and animations.',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -46,7 +56,7 @@ export default function Projects() {
       category: 'Frontend',
       githubUrl: 'https://github.com/AchyutTiwari21/Portfolio-Website',
       liveUrl: '#',
-    },
+    }
   ];
 
   const categories = ['All', 'Full Stack', 'Frontend', 'Backend'];
