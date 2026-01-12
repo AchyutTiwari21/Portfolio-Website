@@ -140,10 +140,10 @@ export default function Contact() {
                   <Button
                     variant="outline"
                     className="w-full"
-                    onClick={() => window.open('https://drive.google.com/file/d/1CdoISHDOns6g_gvRGDeF3wobKoy7JX8B/view?usp=drive_link', '_blank')}
+                    onClick={() => window.open('https://drive.google.com/file/d/1zckb2_UOX1yGfY8T5luKAygKAWdIUNgz/view?usp=sharing', '_blank')}
                   >
                     <Download className="h-4 w-4 mr-2" />
-                    Download Resume
+                    View Resume
                   </Button>
                 </CardContent>
               </Card>
