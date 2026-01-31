@@ -140,7 +140,7 @@ export default function Contact() {
                   <Button
                     variant="outline"
                     className="w-full"
-                    onClick={() => window.open('https://drive.google.com/file/d/1zckb2_UOX1yGfY8T5luKAygKAWdIUNgz/view?usp=sharing', '_blank')}
+                    onClick={() => window.open('https://drive.google.com/file/d/13wn2a4_ziwOAMDuiVTDCR7rBzCvuZ2eR/view?usp=drive_link', '_blank')}
                   >
                     <Download className="h-4 w-4 mr-2" />
                     View Resume
