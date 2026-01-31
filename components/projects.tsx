@@ -18,6 +18,16 @@ export default function Projects() {
 
   const projects = [
     {
+      id: 0,
+      title: 'DPay',
+      description: 'An online tutor finder application that connects students with qualified tutors for personalized learning experiences.',
+      image: 'https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg',
+      technologies: ['NodeJS', 'MongoDB', 'ExpressJS', 'React', 'Redux', 'TailwindCSS'],
+      category: 'Full Stack',
+      githubUrl: 'https://github.com/AchyutTiwari21/DPay-Backend',
+      liveUrl: 'https://dpay-six.vercel.app/'
+    },
+    {
       id: 1,
       title: 'Agri-Connect',
       description: 'A full-stack web application connecting farmers with buyers, product listings, and secure transactions.',
