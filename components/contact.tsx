@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Github, Linkedin, Mail, MapPin, Phone, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Phone, Eye } from 'lucide-react';
 
 export default function Contact() {
   const [ref, inView] = useInView({
@@ -142,7 +142,7 @@ export default function Contact() {
                     className="w-full"
                     onClick={() => window.open('https://drive.google.com/file/d/1sB3ZhYSXF2N30nxnVjf8v8s53dEF8Jx1/view?usp=sharing', '_blank')}
                   >
-                    <Download className="h-4 w-4 mr-2" />
+                    <Eye className="h-4 w-4 mr-2" />
                     View Resume
                   </Button>
                 </CardContent>
